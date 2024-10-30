@@ -6,17 +6,20 @@
     <link rel="stylesheet" href="style.css" />
     <title>Responsive Design With Tailwind CSS</title>
   </head>
-  <body class="bg-slate-900 text-white h-svh flex items-center justify-center overflow-scroll">
-    <div class="w-1/2 rounded-xl border-2 flex flex-col md:flex-row overflow-hidden">
+  <body class="bg-slate-900 text-white h-dvh flex items-center justify-center p-20">
+    <div class="rounded-xl border-2 flex flex-col md:flex-row">
       <img
         src="https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=600"
         alt="Apple"
-        class="w-full h-48 object-cover object-center"
+        class="max-h-64 object-contain object-center"
       />
-      <div class="flex flex-col gap-4">
-          <p class="px-4 pt-4 text-lg font-bold capitalize">This is an apple.</p>
-          <p class="px-4 pb-4 text-sm">It is reach in fibre and many other nutrients. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, atque.</p>
-        </div>
+      <div class="flex flex-col gap-4 sm:w-60">
+        <p class="px-4 pt-4 text-lg font-bold capitalize">This is an apple.</p>
+        <p class="px-4 pb-4 text-sm">
+          It is reach in fibre and many other nutrients. Lorem ipsum dolor sit
+          amet consectetur, adipisicing elit. Necessitatibus, atque.
+        </p>
+      </div>
     </div>
   </body>
 </html>
